@@ -817,23 +817,55 @@ img {
   z-index: 1;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  margin-bottom: 30px; }
-  .single-album img {
-    width: 100%; }
-  .single-album .album-info {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px; }
-    .single-album .album-info h5 {
-      font-size: 18px;
-      margin-bottom: 0;
-      text-transform: uppercase; }
-    .single-album .album-info p {
-      margin-bottom: 0; }
-  .single-album:hover, .single-album:focus {
-    box-shadow: 0 5px 70px 0 rgba(0, 0, 0, 0.15); }
+  margin-bottom: 30px;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.single-album .album-info a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto !important;
+  z-index: 10;
+  position: relative;
+}
+
+.single-album img {
+  width: 100%;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.single-album .album-info {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.single-album:hover, .single-album:focus {
+  box-shadow: 0 5px 70px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure no drag events anywhere in the album area */
+.single-album *, 
+.single-album *::before, 
+.single-album *::after {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
 
 .single-album-area {
   position: relative;
@@ -1676,3 +1708,58 @@ img {
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
+
+/* Social Media Icons Styling */
+.classynav .social-icons a {
+    color: white;
+    font-size: 18px;
+    margin-left: 35px;
+    transition: color 0.3s ease;
+}
+
+.classynav .social-icons a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Ensure proper spacing between Store link and social icons */
+.classynav ul li:not(:last-child) {
+    margin-right: 50px;
+}
+
+/* Add extra padding to the social icons container */
+.classynav .social-icons {
+    padding-left: 20px;
+}
+
+/* Social Media Icons Styling */
+.classynav ul li.social-icons {
+    margin-left: 50px;
+}
+
+.classynav ul li.social-icons a {
+    color: white;
+    font-size: 18px;
+    margin-left: 35px;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.classynav ul li.social-icons a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Remove dropdown arrows from social icons */
+.classynav ul li.social-icons > a:after {
+    display: none;
+}
+
+/* Adjust spacing for right-aligned store link */
+.classynav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.classynav ul li.social-icons {
+    margin-right: 30px;
+}
