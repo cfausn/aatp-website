@@ -1,0 +1,28 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]  # or whatever your main branch is named
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create config file
+        run: |
+          echo "const config = {
+            emailjs: {
+              publicKey: '${{ secrets.EMAILJS_PUBLIC_KEY }}',
+              serviceId: '${{ secrets.EMAILJS_SERVICE_ID }}',
+              templateId: '${{ secrets.EMAILJS_TEMPLATE_ID }}'
+            }
+          };
+          export default config;" > js/config.js
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: . 
