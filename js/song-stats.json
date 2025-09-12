@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-09-11",
+  "last_updated": "2025-09-12",
   "songs": {
     "Thinking": {
       "spotify_id": "2buXMMOXqK0SssXEotoWJu",
-      "streams": 450959
+      "streams": 451223
     },
     "I'm (Not) Okay": {
       "spotify_id": "0tsUjwj00BqB8tDs0XUfBM",
-      "streams": 217135
+      "streams": 217937
     },
     "Colorado": {
       "spotify_id": "6V6JbJ50R2ZmGuEmpOKnIj",
@@ -15,11 +15,11 @@
     },
     "Heads Up": {
       "spotify_id": "4wb4mS1CWoKnGZOvRhnd5K",
-      "streams": 476896
+      "streams": 477513
     },
     "Nexus (Is It Over)": {
       "spotify_id": "4iUCMluJ10iYvl4SZVl2Sx",
-      "streams": 3986367
+      "streams": 3995970
     },
     "Echoes": {
       "spotify_id": "0joqO2wtuBGg443CVkIeOW",
@@ -27,11 +27,11 @@
     },
     "Empty Thoughts": {
       "spotify_id": "70cExjWNLSdeaRbcqupnD1",
-      "streams": 271654
+      "streams": 272385
     },
     "Looking Up (The End)": {
       "spotify_id": "0tK9kbyF2ZtwkjOCXWSxe5",
-      "streams": 178705
+      "streams": 180506
     }
   }
 }
