@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-10",
+  "last_updated": "2025-10-11",
   "songs": {
     "Thinking": {
       "spotify_id": "2buXMMOXqK0SssXEotoWJu",
@@ -15,7 +15,7 @@
     },
     "Heads Up": {
       "spotify_id": "4wb4mS1CWoKnGZOvRhnd5K",
-      "streams": 483916
+      "streams": 484843
     },
     "Nexus (Is It Over)": {
       "spotify_id": "4iUCMluJ10iYvl4SZVl2Sx",
@@ -31,7 +31,7 @@
     },
     "Looking Up (The End)": {
       "spotify_id": "0tK9kbyF2ZtwkjOCXWSxe5",
-      "streams": 195623
+      "streams": 196585
     }
   }
 }
