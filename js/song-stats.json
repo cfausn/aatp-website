@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-11",
   "songs": {
     "Thinking": {
       "spotify_id": "2buXMMOXqK0SssXEotoWJu",
@@ -23,7 +23,7 @@
     },
     "Echoes": {
       "spotify_id": "0joqO2wtuBGg443CVkIeOW",
-      "streams": 517169
+      "streams": 517263
     },
     "Empty Thoughts": {
       "spotify_id": "70cExjWNLSdeaRbcqupnD1",
@@ -31,7 +31,7 @@
     },
     "Looking Up (The End)": {
       "spotify_id": "0tK9kbyF2ZtwkjOCXWSxe5",
-      "streams": 453999
+      "streams": 456866
     }
   }
 }
